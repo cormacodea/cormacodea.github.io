@@ -46,6 +46,7 @@ main {
     max-width: 1200px;
     width: 90%;
     min-height: 645px;
+    padding-bottom: 125px;
     background-color: #fff;
     padding: 40px;
     border-radius: 10px;
