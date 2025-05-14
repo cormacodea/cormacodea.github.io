@@ -46,13 +46,13 @@ main {
     max-width: 1200px;
     width: 90%;
     min-height: 645px;
-    padding-bottom: 125px;
     background-color: #fff;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     text-align: left;
     display: flex;
+    padding-bottom: 125px;
     flex-direction: column;
 }
 
@@ -147,6 +147,7 @@ body.page-cv .nav-bar{
 /* Yale Logo Styling */
 .yale-logo {
     position: absolute;
+    padding-left: 10px;
     bottom: 20px;
     right: 20px;
 }
@@ -374,7 +375,6 @@ footer {
         width: 100%; /* Full width */
         min-height: 100vh; /* Full height */
         padding: 20px; /* Adjust padding to prevent overflow */
-        padding-bottom: 125px; /* Adjust padding to prevent overflow */
         border-radius: 0; /* Remove rounded corners */
         box-shadow: none; /* Remove shadows for a cleaner look */
         display: flex;
@@ -462,6 +462,7 @@ footer {
     }
     .yale-logo {
         display: none;
+        /* margin-left: 5px; */
     }
 
     .policy_paper {
